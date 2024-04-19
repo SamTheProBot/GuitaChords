@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('/background.jpg') no-repeat center/cover;
+}
+.section {
+  height: 50%;
+  width: clamp(60%, 50%, 40%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+}
+.chords {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  color: aliceblue;
+  font-size: 5rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.range {
+  width: 80%;
+}
