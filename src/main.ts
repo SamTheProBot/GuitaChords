@@ -1,18 +1,18 @@
 const notes: any = document.querySelector('.chords');
 const RangeSlider: HTMLElement | null = document.querySelector('.range');
 let intervalID: number;
-let interval: number = 2000;
+let interval: number = 3000;
 
 const allchords: Array<string> = [
   'A',
-  'B',
+  // 'B',
   'C',
   'D',
   'E',
   'F',
   'G',
   'Am',
-  'Bm',
+  // 'Bm',
   'Dm',
   'Cadd9',
 ];
